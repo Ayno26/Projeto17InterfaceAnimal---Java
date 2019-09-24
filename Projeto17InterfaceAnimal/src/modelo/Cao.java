@@ -35,7 +35,7 @@ public class Cao extends Canino implements IDomestico {
     }
 //Interface
     @Override
-    public String comida(String comida) {
+    public String comida() {
         return "Ração";
     }
 }

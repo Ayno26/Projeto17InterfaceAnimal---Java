@@ -11,5 +11,5 @@ package modelo;
  */
 public interface IDomestico {
     
-    public String comida(String comida);
+    public String comida();
 }

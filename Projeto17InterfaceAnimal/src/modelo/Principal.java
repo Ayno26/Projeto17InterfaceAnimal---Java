@@ -23,7 +23,7 @@ public class Principal {
         Cao objCao = new Cao("Doméstico");
         Lobo objLobo = new Lobo("Montanhas");
         
-        System.out.println("Gato"+"\nComida: "+objGato.comida("Peixe")+
+        System.out.println("Gato"+"\nComida: "+objGato.comida()+
                 " Habitat: "+objGato.getHabitat()+
                 " Braulho: "+objGato.makeNoise()+
                 " Raça: "+objGato.raça());
@@ -33,7 +33,7 @@ public class Principal {
         System.out.println("\nTigre"+"\nHabitat: "+objTigre.getHabitat()+
                 " Braulho: "+objTigre.makeNoise()+
                 " Cor: "+objTigre.cor());
-        System.out.println("\nCao"+"\nComida: "+objCao.comida("Ração")+
+        System.out.println("\nCao"+"\nComida: "+objCao.comida()+
                 " Habitat: "+objCao.getHabitat()+
                 " Braulho: "+objCao.makeNoise()+
                 " Tamanho: "+objCao.tamanho());
